@@ -103,6 +103,26 @@ nav ul{
   gap:15px;
 }
 
+/* FEATURES */
+
+.features{
+  color: #5B7081;
+}
+
+.features .features-card{
+  background-color: #B5DDFF;
+  padding: 31px 24px;
+  border-radius: 24px;
+}
+
+h3.features-card_title{
+  color: #0384FD;
+}
+
+p.features-card_paragraph{
+  font-weight: 500;
+}
+
 
 
 
