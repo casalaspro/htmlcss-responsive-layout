@@ -20,6 +20,7 @@ img{
 
 /* DEBUG */
 
-body > *{
+body *{
   border: solid 1px black;
 }
+
