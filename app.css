@@ -23,6 +23,7 @@ img{
 
 body{
   font-family: "Fredoka", sans-serif;
+  letter-spacing: 0.06rem;
 }
 
 /* DEBUG */
@@ -111,7 +112,7 @@ nav ul{
 
 .features .features-card{
   background-color: #B5DDFF;
-  padding: 31px 24px;
+  padding: 31px 24px 0 24px;
   border-radius: 24px;
 }
 
@@ -120,7 +121,30 @@ h3.features-card_title{
 }
 
 p.features-card_paragraph{
-  font-weight: 500;
+  font-weight: 600;
+}
+
+.features-img{
+  width: 35%;
+  
+}
+
+.features-card > i{
+  color: #0384FD;
+  font-size: 78px;
+}
+
+.features-card.card-small{
+  flex-direction: column;
+  text-align: center;
+}
+
+.features-card .col-50 > *:not(:last-child){
+  margin-bottom: 35px;
+}
+
+.features-card.card-small > *:not(:last-child){
+  margin-bottom: 35px;
 }
 
 
