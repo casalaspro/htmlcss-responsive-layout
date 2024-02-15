@@ -94,7 +94,7 @@ nav ul{
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:0px) {
   nav .fa-solid{
     display: inline-block;
   }
