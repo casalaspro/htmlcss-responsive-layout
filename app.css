@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap')
+
 /* RESET */
 
 *{
@@ -16,13 +18,23 @@ a{
 }
 
 img{
-  width: 100%;
+  max-width: 100%;
+}
+
+body{
+  font-family: "Fredoka", sans-serif;
 }
 
 /* DEBUG */
 
-body *{
+/* body *{
   border: solid 1px black;
+} */
+
+/* UTILITIES */
+
+.flex{
+  display: flex;
 }
 
 /* LAYOUT */
@@ -43,11 +55,27 @@ body *{
   max-width: 940px;
 }
 
-/* UTILITIES */
-
-.flex{
-  display: flex;
+[class^='container']{
+  margin: 0 auto;
 }
+
+/* HEADER */
+
+nav{
+  background-color: #0384FD;
+  padding: 18px;
+}
+
+nav .fa-solid{
+  display: none;
+}
+
+nav .row{
+  justify-content: space-between;
+}
+
+
+
 
 /* MEDIA QUERIES */
 
