@@ -45,6 +45,20 @@ a.button-sm-light{
   color: black;
 }
 
+.col-4{
+  width: calc(4 * 100% / 12)
+}
+
+.col-8{
+  width: calc(8 * 100% / 12);
+}
+
+.col-50{
+  width: calc(100% / 2);
+}
+
+
+
 /* LAYOUT */
 
 .row{
