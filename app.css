@@ -94,15 +94,27 @@ nav ul{
 
 /* MEDIA QUERIES */
 
-/* @media screen and (min-width:576px) {
-  
+@media screen and (min-width:576px) {
+  nav .fa-solid{
+    display: inline-block;
+  }
+
+  nav ul, nav li{
+    display: none;
+  }
 }
 
 @media screen and (min-width:992px) {
   
 }
 
-@media screen and (min-width:992px) {
-  
+@media screen and (min-width:1200px) {
+  nav .fa-solid{
+    display: none;
+  }
+
+  nav ul, nav li{
+    display: block;
+  }
 }
- */
+
