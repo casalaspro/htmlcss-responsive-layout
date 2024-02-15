@@ -12,6 +12,7 @@ ul, li, menu{
 
 a{
   text-decoration: none;
+  color: currentColor;
 }
 
 img{
@@ -22,5 +23,43 @@ img{
 
 body *{
   border: solid 1px black;
+}
+
+/* LAYOUT */
+
+.row{
+  display: flex;
+}
+
+.container-xl{
+  max-width: 1200px;
+}
+
+.container{
+  max-width: 1070px;
+}
+
+.container-sm{
+  max-width: 940px;
+}
+
+/* UTILITIES */
+
+.flex{
+  display: flex;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width:576px) {
+  
+}
+
+@media screen and (min-width:992px) {
+  
+}
+
+@media screen and (min-width:992px) {
+  
 }
 
