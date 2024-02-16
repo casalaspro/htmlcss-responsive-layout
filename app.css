@@ -106,19 +106,24 @@ nav{
   color: white;
 }
 
-nav .fa-solid{
-  display: none;
-}
+
 
 nav .row{
   justify-content: space-between;
   align-items: center;
 }
 
-nav ul{
+nav ul, nav li{
   align-items: center;
   gap:15px;
+  display: none;
 }
+
+nav .fa-solid{
+  display: inline-block;
+}
+
+
 
 /* FEATURES */
 
@@ -215,18 +220,15 @@ p.features-card_paragraph{
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width:0px) {
-  nav .fa-solid{
-    display: inline-block;
-  }
+@media screen and (min-width:576px) {
 
-  nav ul, nav li{
-    display: none;
-  }
 }
 
+
+
 @media screen and (min-width:768px) {
-  .col-8{
+
+ .col-8{
     width: calc(8 * 100% / 12);
   }
 
@@ -237,16 +239,12 @@ p.features-card_paragraph{
   .features-img{
     margin: 0 0;
   }
-
-
-
-
-
 }
-}
+
 
 @media screen and (min-width:1200px) {
-  nav .fa-solid{
+
+  nav i.fa-solid{
     display: none;
   }
 
