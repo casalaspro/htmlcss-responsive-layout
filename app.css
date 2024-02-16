@@ -85,8 +85,8 @@ a.button-sm-light{
   line-height: 16px;
   border-radius: 999px;
   padding: 12px 16px;
-  background-color: var(--dark-blue);
-  color: white;
+  background-color: white;
+  color: var(--dark-blue);
 }
 
 a.button-icon {
@@ -121,6 +121,7 @@ nav ul, nav li{
 
 nav .fa-solid{
   display: inline-block;
+  font-size: 30px;
 }
 
 
@@ -167,11 +168,12 @@ h3.features-card_title{
 
 p.features-card_paragraph{
   font-weight: 600;
+  line-height: 2em;
 }
 
 .features-img{
   display: block;
-  width: 200px;
+  width: 280px;
   margin: 0 auto;
 }
 
@@ -222,6 +224,10 @@ p.features-card_paragraph{
 
 @media screen and (min-width:576px) {
 
+  .features-img{
+    margin: 0 0;
+  }
+
 }
 
 
@@ -234,10 +240,6 @@ p.features-card_paragraph{
 
   .col-4{
     width: calc(4 * 100% / 12)
-  }
-
-  .features-img{
-    margin: 0 0;
   }
 }
 
