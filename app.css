@@ -4,6 +4,7 @@
 
 :root{
   --dark-blue: #0384FD;
+  --purple: #9792E4;
 }
 
 /* RESET */
@@ -75,9 +76,7 @@ body{
   margin: 0 auto;
 }
 
-section{
-  padding: 52px 0 107px 0;
-}
+
 
 /* COMPONENTS */
 
@@ -127,6 +126,10 @@ nav .fa-solid{
 
 
 /* FEATURES */
+
+section.features{
+  padding: 52px 0 107px 0;
+}
 
 .features{
   color: #5B7081;
@@ -213,10 +216,18 @@ p.features-card_paragraph{
   padding-top: 35px;
 }
 
-/* .features-img_box{
-  display: flex;
-  align-items: flex-end;
-} */
+/* PLANNING */
+
+section.planning{
+  background-color: var(--purple);
+  padding: 95px 0 63px 0;
+}
+
+.planning .planning-main-img{
+  margin-bottom: 140px;
+}
+
+
 
 
 
@@ -234,11 +245,11 @@ p.features-card_paragraph{
 
 @media screen and (min-width:768px) {
 
- .col-8{
+ .col-md-8{
     width: calc(8 * 100% / 12);
   }
 
-  .col-4{
+  .col-md-4{
     width: calc(4 * 100% / 12)
   }
 }
